@@ -6,7 +6,6 @@ from MCTS.Agent import MCTSAgent
 
 
 class Server:
-
     def __init__(
             self,
             player1: Union[HumanPlayer, MCTSAgent],
